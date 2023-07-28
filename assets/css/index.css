@@ -1,0 +1,263 @@
+@font-face {
+  font-family: BebasNeue-Regular; /* bold + all caps */
+  src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: Caveat-VariableFont_wght; /* cursue */
+  src: url(../fonts/Caveat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Chapaza; /* cursue */
+  src: url(../fonts/Chapaza.ttf);
+}
+
+@font-face {
+  font-family: Chapaza-Italic; /* cursue */
+  src: url(../fonts/Chapaza-Italic.ttf);
+}
+
+@font-face {
+  font-family: DancingScript-VariableFont_wght; /* cursue++ */
+  src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Kalam-Regular;
+  src: url(../fonts/Kalam-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lobster-Regular;
+  src: url(../fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lumanosimo-Regular;
+  src: url(../fonts/Lumanosimo-Regular.ttf);
+}
+
+@font-face {
+  font-family: Philosopher-Regular;
+  src: url(../fonts/Philosopher-Regular.ttf);
+}
+
+@font-face {
+  font-family: RussoOne-Regular; /*  looks like bold */
+  src: url(../fonts/RussoOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: Satisfy-Regular;
+  src: url(../fonts/Satisfy-Regular.ttf);
+}
+
+.hero-section {
+  position: relative;
+  margin-top: -20px;
+  height: 100vh;
+  background-image: url("../img/bg4.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.hero-content {
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.hero-section p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.hero-section .btn {
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #11b053;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.hero-section .btn:hover {
+  background-color: #7aad3a;
+}
+
+.section {
+  height: 100vh;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 36px;
+  margin-top: 200px;
+}
+
+.section p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.section:nth-of-type(even) {
+  background-color: #f5f9e9;
+}
+
+.greencolor {
+  color: #ae3a0d;
+}
+
+.bg-brown {
+  color: #e77109 !important;
+}
+
+.parallax-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.parallax {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("your-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shadow-sm {
+  box-shadow: 0.3rem 0.3rem rgba(0, 0, 0, 0.5) !important;
+}
+
+.bg-green {
+  --bs-bg-opacity: 1;
+  background-color: #11b053 !important;
+}
+
+.border-green {
+  --bs-border-opacity: 1;
+  border-color: #11b053 !important;
+}
+
+.web-contant {
+  background-color: rgb(242, 236, 224);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.product-card-header {
+  color: #ae3a0d !important;
+  font-family: BebasNeue-Regular;
+}
+
+.product-card-text {
+  font-family: Philosopher-Regular;
+  font-style: italic;
+}
+
+.product-bg {
+ background-color: #c5edb8;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(240, 240, 240);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(240, 240, 240)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.contact-us-header {
+  font-weight: 600;
+  font-family: Chapaza;
+}
+
+.contact-us-text {
+  font-weight: 400px;
+  font-family: Chapaza;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.gallery {
+  padding: 150px 0px 150px 0px;
+}
+
+.footer-map {
+  border-radius: 30px !important;
+  width: 100%;
+  height: 350px;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 500px !important;
+  border-radius: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .card-img-top {
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
+  }
+
+  .nav-brand {
+    font-size: 22px !important;
+  }
+
+  .gallery {
+    padding: 50px 0px 0px 0px;
+  }
+
+  .carousel-inner {
+    width: 100%;
+    height: 300px !important;
+    border-radius: 10px;
+  }
+
+  .footer-map {
+    border-radius: 30px !important;
+    width: 100%;
+    height: 180px;
+    padding-bottom: 20px;
+  }
+}
